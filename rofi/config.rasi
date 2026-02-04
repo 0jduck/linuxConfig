@@ -1,0 +1,8 @@
+configuration {
+    modi: "drun,run";
+    show-icons: true;
+    font: "monospace 11";
+}
+
+//@theme "~/.config/rofi/themes/nils.rasi"
+@theme "/usr/share/rofi/themes/Indego.rasi"
