@@ -4,7 +4,7 @@ sudo apt update
 
 sudo apt install -y \
     i3 xorg \
-    kitty rofi \
+    kitty rofi feh \
     pipewire pipewire-audio pipewire-pulse wireplumber alsa-utils pavucontrol \
     cmatrix tty-clock
 
