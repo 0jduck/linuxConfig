@@ -61,7 +61,7 @@ if ! shopt -oq posix; then
 fi
 
 alias matrix='cmatrix -C blue'
-alias pipe='pipes -p 2 -c 4'
+alias pipes='~/pipes.sh -p 2 -c 4'
 alias clock='tty-clock -c -C 4'
 alias sound-play='speaker-test -t wav'
 alias sound-config='pavucontrol'
