@@ -10,7 +10,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # visual
-exec_always --no-startup-id feh --bg-fill /home/nils/.config/i3/background.png
+exec_always --no-startup-id feh --bg-fill /home/nils/.config/i3/backround.png
 
 default_border pixel 0
 default_floating_border pixel 2
@@ -21,7 +21,7 @@ gaps outer 15
 smart_gaps on
 smart_borders on
 
-exec --no-startup-id picom -b
+exec_always --no-startup-id picom -b
 
 # clipord
 exec --no-startup-id greenclip daemon
@@ -29,13 +29,13 @@ exec --no-startup-id greenclip daemon
 bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
 # screenshot
-bindsym $mod+Shift+s exec --no-startup-id flameshot gui -p ~/Pictures/
+bindsym $mod+Shift+s exec --no-startup-id flameshot gui -p ~/Photos/
 
 # run defualts
 exec --no-startup-id "i3-msg 'workspace 1; append_layout ~/.config/i3/workspace_1.json'"
 
-exec --no-startup-id kitty --class "matrix_term" --hold cmatrix -C white
-exec --no-startup-id kitty --class "clock_term" --hold tty-clock -c -s -C 7
+exec --no-startup-id kitty --class "matrix_term" --hold cmatrix -C green
+exec --no-startup-id kitty --class "clock_term" --hold tty-clock -c -s -C 2
 exec --no-startup-id kitty --class "pipes_term" --hold cava
 
 # volume
