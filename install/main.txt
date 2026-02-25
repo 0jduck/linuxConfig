@@ -1,1 +1,0 @@
-i3 xorg kitty rofi feh pipewire pipewire-audio pipewire-pulse wireplumber alsa-utils pavucontrol cmatrix tty-clock
